@@ -1,4 +1,4 @@
-FROM node:stable-alpine
+FROM node:lts-alpine
 RUN mkdir -p /usr/src/nuxt-app
 WORKDIR /usr/src/nuxt-app
 RUN apk update && apk update
